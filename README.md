@@ -9,6 +9,5 @@ Students are expected to:
 Student Info
 =========================
 
-* Student Name: *Put your name here*
-* Student ID: *Put your ID here*
-
+* Student Name: Vũ Long Dũng
+* Student ID: BI9-070
