@@ -1,0 +1,54 @@
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ ps -U root -u root -N
+ PID TTY          TIME CMD
+  784 ?        00:00:01 systemd-resolve
+  785 ?        00:00:00 systemd-timesyn
+  880 ?        00:00:04 dbus-daemon
+  889 ?        00:00:00 nvidia-persiste
+  895 ?        00:00:00 rsyslogd
+  897 ?        00:00:00 avahi-daemon
+  921 ?        00:00:00 avahi-daemon
+ 1131 ?        00:00:00 systemd
+ 1132 ?        00:00:00 (sd-pam)
+ 1143 tty1     00:00:00 gdm-wayland-ses
+ 1145 ?        00:00:00 dbus-daemon
+ 1147 tty1     00:00:00 gnome-session-b
+ 1153 tty1     00:00:18 gnome-shell
+ 1185 tty1     00:00:00 Xwayland
+ 1197 ?        00:00:00 at-spi-bus-laun
+ 1202 ?        00:00:00 dbus-daemon
+ 1204 ?        00:00:00 at-spi2-registr
+ 1207 ?        00:00:00 whoopsie
+ 1211 ?        00:00:00 kerneloops
+ 1213 ?        00:00:00 kerneloops
+ 1230 ?        00:00:00 pulseaudio
+ 1242 ?        00:00:00 rtkit-daemon
+ 1260 tty1     00:00:00 ibus-daemon
+ 1263 tty1     00:00:00 ibus-dconf
+ 1266 tty1     00:00:00 ibus-x11
+ 1268 ?        00:00:00 ibus-portal
+ 1276 ?        00:00:00 xdg-permission-
+ 1282 tty1     00:00:00 gsd-xsettings
+ 1292 tty1     00:00:00 gsd-a11y-settin
+ 1293 tty1     00:00:00 gsd-clipboard
+ 1296 tty1     00:00:01 gsd-color
+ 1297 tty1     00:00:00 gsd-datetime
+ 1298 tty1     00:00:00 gsd-housekeepin
+ 1299 tty1     00:00:00 gsd-keyboard
+ 1303 tty1     00:00:00 gsd-media-keys
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ gnome-calculator
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ ps aux | grep -i gnome-calculator
+vulongd+ 13051  1.6  0.4 797972 39960 pts/1    Sl+  21:24   0:01 /snap/gnome-calculator/544/usr/bin/gnome-calculator
+vulongd+ 13292  0.0  0.0  23072  1008 pts/0    S+   21:25   0:00 grep --color=auto -i gnome-calculator
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ cat /proc/13315/status | grep State
+State:	S (sleeping)
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ kill -SIGSTOP 13315
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ kill -SIGCONT 13315
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ kill -SIGKILL 13315
+
+
+
+
+

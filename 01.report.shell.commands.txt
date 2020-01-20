@@ -1,0 +1,109 @@
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ echo hello world
+hello world
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ passwd
+Changing password for vulongdung.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ date
+Mon Jan 20 18:16:40 +07 2020
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ hostname
+vulongdung-TUF-Gaming-FX505GD-FX505GD
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ arch
+x86_64
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ uname -a
+Linux vulongdung-TUF-Gaming-FX505GD-FX505GD 5.3.0-26-generic #28~18.04.1-Ubuntu SMP Wed Dec 18 16:40:14 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ dmesg
+[    0.000000] microcode: microcode updated early to revision 0xca, date = 2019-10-03
+[    0.000000] Linux version 5.3.0-26-generic (buildd@lgw01-amd64-039) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #28~18.04.1-Ubuntu SMP Wed Dec 18 16:40:14 UTC 2019 (Ubuntu 5.3.0-26.28~18.04.1-generic 5.3.13)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.3.0-26-generic root=UUID=2cbbbabf-81a6-46a5-bcf4-93c34d2e73e9 ro quiet splash vt.handoff=1
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Hygon HygonGenuine
+[    0.000000]   Centaur CentaurHauls
+[    0.000000]   zhaoxin   Shanghai  
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.000000] x86/fpu: xstate_offset[3]:  832, xstate_sizes[3]:   64
+[    0.000000] x86/fpu: xstate_offset[4]:  896, xstate_sizes[4]:   64
+[    0.000000] x86/fpu: Enabled xstate features 0x1f, context size is 960 bytes, using 'compacted' format.
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009efff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009f000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x0000000078c57fff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000078c58000-0x000000007a4c3fff] reserved
+[    0.000000] BIOS-e820: [mem 0x000000007a4c4000-0x000000007a540fff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x000000007a541000-0x000000007a637fff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x000000007a638000-0x000000007ac40fff] reserved
+[    0.000000] BIOS-e820: [mem 0x000000007ac41000-0x000000007ad0dfff] type 20
+[    0.000000] BIOS-e820: [mem 0x000000007ad0e000-0x000000007ad0efff] usable
+[    0.000000] BIOS-e820: [mem 0x000000007ad0f000-0x000000007fffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000e0000000-0x00000000efffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fe000000-0x00000000fe010fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed00000-0x00000000fed03fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000027dffffff] usable
+[    0.000000] NX (Execute Disable) protection: active
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ uptime
+ 18:17:24 up 26 min,  1 user,  load average: 0.58, 0.61, 0.58
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ who am i 
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ whoami
+vulongdung
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ who
+vulongdung :0           2020-01-20 18:16 (:0)
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ id
+
+uid=1000(vulongdung) gid=1000(vulongdung) groups=1000(vulongdung),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ last
+vulongdu :0           :0               Mon Jan 20 18:16   still logged in
+vulongdu :0           :0               Tue Jan 21 00:51 - 18:15  (-6:35)
+reboot   system boot  5.3.0-26-generic Tue Jan 21 00:50   still running
+vulongdu :0           :0               Mon Jan 20 13:21 - 06:23  (-6:58)
+reboot   system boot  5.0.0-37-generic Mon Jan 20 13:20 - 06:25  (-6:55)
+vulongdu :0           :0               Sun Jan 19 22:52 - 22:58  (00:05)
+reboot   system boot  5.0.0-37-generic Sun Jan 19 22:51 - 22:58  (00:06)
+vulongdu :1           :1               Sun Jan 19 22:46 - 22:51  (00:05)
+reboot   system boot  5.0.0-37-generic Sun Jan 19 22:45 - 22:51  (00:06)
+vulongdu :1           :1               Mon Jan 20 05:22 - 22:44  (-6:37)
+reboot   system boot  5.0.0-37-generic Mon Jan 20 05:21 - 22:44  (-6:36)
+reboot   system boot  5.0.0-37-generic Sun Jan 19 04:24 - 22:44  (18:20)
+reboot   system boot  5.0.0-37-generic Wed Jan 15 15:46 - 22:44 (4+06:58)
+reboot   system boot  5.0.0-37-generic Wed Jan 15 14:15 - 14:18  (00:02)
+reboot   system boot  5.0.0-37-generic Wed Jan 15 14:10 - 14:18  (00:08)
+reboot   system boot  5.0.0-37-generic Wed Jan 15 14:01 - 14:04  (00:03)
+reboot   system boot  5.0.0-37-generic Wed Jan 15 13:55 - 13:57  (00:02)
+vulongdu :1           :1               Wed Jan 15 13:06 - down   (00:47)
+reboot   system boot  5.0.0-23-generic Wed Jan 15 13:06 - 13:54  (00:48)
+reboot   system boot  5.0.0-23-generic Wed Jan 15 13:03 - 13:04  (00:00)
+vulongdu :1           :1               Wed Jan 15 19:37 - down   (-6:33)
+reboot   system boot  5.0.0-23-generic Wed Jan 15 19:35 - 13:03  (-6:31)
+reboot   system boot  5.0.0-23-generic Wed Jan 15 18:27 - 13:03  (-5:23)
+reboot   system boot  5.0.0-23-generic Wed Jan 15 16:24 - 16:28  (00:04)
+
+wtmp begins Wed Jan 15 16:24:06 2020
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ finger
+Login       Name         Tty      Idle  Login Time   Office     Office Phone
+vulongdung  vulongdung  *:0             Jan 20 18:16 (:0)
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ w
+ 18:18:18 up 27 min,  1 user,  load average: 0.43, 0.55, 0.56
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+vulongdu :0       :0               18:16   ?xdm?  60.63s  0.00s /usr/lib/gdm3/g
+

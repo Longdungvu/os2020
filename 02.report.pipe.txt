@@ -1,0 +1,15 @@
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ ls |grep list
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ wc -l /etc/passwd
+42 /etc/passwd
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ read junk total used free shared buffers cached junk < <(free -g  | grep ^Mem)
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ echo $total
+7
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~$ cat /proc/cpuinfo |grep 'cpu cores'| head -1
+cpu cores	: 4
+
+vulongdung@vulongdung-TUF-Gaming-FX505GD-FX505GD:~/Desktop/Photo$ find . -type f -name "*.jpg" | wc -l
+3
+
