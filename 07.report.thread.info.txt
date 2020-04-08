@@ -1,0 +1,7 @@
+Command:
+ps -o nlwp 21263
+
+Output:
+NLWP
+  34
+

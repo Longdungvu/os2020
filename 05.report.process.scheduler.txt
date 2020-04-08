@@ -1,0 +1,30 @@
+Command:
+grep systemd /proc/sched_debug 
+
+Output:
+ Ssystemd-timesyn   828         5.092391        64   120         0.000000        34.273551         0.000000 0 0 /autogroup-33
+ Ssystemd-journal   368        55.831684      1356   119         0.000000       511.738582         0.000000 0 0 /autogroup-6
+ S  systemd-udevd   415       708.456044       808   120         0.000000      1333.754875         0.000000 0 0 /autogroup-16
+ S        systemd     1       513.773171     25372   120         0.000000      2703.630149         0.000000 0 0 /autogroup-2
+ S        systemd  1127       109.115262       222   120         0.000000       228.601248         0.000000 0 0 /autogroup-75
+ Ssystemd-resolve   827        54.319130      1860   120         0.000000       450.355894         0.000000 0 0 /autogroup-32
+ S systemd-logind   958         8.286717      1901   120         0.000000       169.501092         0.000000 0 0 /autogroup-59
+
+------------------------------------------------------------------------------------------------------------------------------
+Command:
+grep switch /proc/1/sched
+
+Output:
+nr_switches                                  :                27325
+nr_voluntary_switches                        :                26852
+nr_involuntary_switches                      :                  473
+
+------------------------------------------------------------------------------------------------------------------------------
+Command:
+grep switch /proc/1127/sched
+
+Output:
+nr_switches                                  :                  222
+nr_voluntary_switches                        :                  199
+nr_involuntary_switches                      :                   23
+
